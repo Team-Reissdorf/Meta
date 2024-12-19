@@ -1,15 +1,18 @@
-# meta
+# Meta
 guideline tracker repo
 
-## guideliens
+## Guideliens
+- english language
+- main - only merge after PO approval
+- dev - development branch
 - [REST - api spec](https://restfulapi.net/)
 - [SemVer 2.0.0](https://semver.org/)
 
-### backend
+### Backend
 - [go - lang](https://go.dev/)
 - [gin-gonic - framework](https://gin-gonic.com/)
 - [gorm - db](https://gorm.io/)
 
-### frontend
+### Frontend
 - [nginx - webserver](https://nginx.org/en/)
 TODO
