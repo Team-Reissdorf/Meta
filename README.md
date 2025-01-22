@@ -15,6 +15,6 @@ guideline tracker repo
 
 ### Frontend
 - [nginx - webserver](https://nginx.org/en/)
-- [Vue.js - framework](https://vuejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [bootstrapjs - framework]([https://vuejs.org/](https://getbootstrap.com/))
+- Vanilla Javascript
 - [Axios - API calls](https://axios-http.com/docs/intro)
