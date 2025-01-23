@@ -4,7 +4,7 @@ guideline tracker repo
 ## Guideliens
 - english language
 - main - only merge after PO approval
-- dev - development branch
+- dev - development branch, pushing only allowed after one peer approval 
 - [REST - api spec](https://restfulapi.net/)
 - [SemVer 2.0.0](https://semver.org/)
 
