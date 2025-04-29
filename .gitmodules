@@ -1,0 +1,6 @@
+[submodule "compose/Frontend"]
+	path = compose/Frontend
+	url = https://github.com/Team-Reissdorf/Frontend.git
+[submodule "compose/Backend"]
+	path = compose/Backend
+	url = https://github.com/Team-Reissdorf/Backend.git
