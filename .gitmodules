@@ -1,8 +1,8 @@
 [submodule "compose/Frontend"]
 	path = compose/Frontend
 	url = https://github.com/Team-Reissdorf/Frontend.git
-	branch = development
+	branch = reconf-proxy
 [submodule "compose/Backend"]
 	path = compose/Backend
 	url = https://github.com/Team-Reissdorf/Backend.git
-	branch = development
+	branch = fix-compose
