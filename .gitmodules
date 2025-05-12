@@ -5,4 +5,4 @@
 [submodule "compose/Backend"]
 	path = compose/Backend
 	url = https://github.com/Team-Reissdorf/Backend.git
-	branch = fix-compose
+	branch = development
