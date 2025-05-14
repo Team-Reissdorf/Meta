@@ -15,8 +15,8 @@ services:
     image: postgres
     restart: always
     environment:
-      - POSTGRES_USER=test
-      - POSTGRES_PASSWORD=test123
+      - POSTGRES_USER=Speimanes
+      - POSTGRES_PASSWORD='H8^e8jBuiJj3kZxJ4$M8s6r9GLsLRk*F^mEVv!QpcQgkjU%6w6NXHVq@WiRBdxM4H8Qq56tvY!L4C%KT7FAZ3z^w62qbQPhtjLC%ujUHeaDo8UrXcQAu2w9246RciduA'
       - POSTGRES_DB=ComPeteHub
     ports:
       - 5432:5432
