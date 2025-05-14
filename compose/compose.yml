@@ -4,8 +4,8 @@ services:
       context: Backend
       dockerfile: Dockerfile
     restart: always
-    ports:
-      #- 8080:8080
+    # ports:
+    #   - 8080:8080
     depends_on:
       - db
     networks:
@@ -35,11 +35,6 @@ services:
     networks:
       - competehub
 
-#  debug:
-#    image: alpine:latest
-#    command: sleep infinity
-#    networks:
-#      - competehub
 networks:
   competehub:
     driver: bridge
