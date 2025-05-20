@@ -22,8 +22,7 @@ guideline tracker repo
 ## testing full setup
 
 0. clone repo: `git clone --recurse-submodules https://github.com/Team-Reissdorf/Meta.git`
-0.5. (optionally checkout correct branch)
-1. update submodules: `git submodule update --init --recursive`
+1. update submodules (if you already have a copy): `git submodules update --init --recursive`
 2. build and run:
 
 | podman                       | docker                                         |
