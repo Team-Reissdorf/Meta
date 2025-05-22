@@ -22,7 +22,7 @@ services:
       - competehub
 
   frontend:
-    image: ghcr.io/team-reissdorf/frontend:1.0.1
+    image: ghcr.io/team-reissdorf/frontend:1.0.2
     restart: always
     ports:
       -   8081:8081
