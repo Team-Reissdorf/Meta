@@ -3,6 +3,9 @@ services:
     build:
       context: Backend
       dockerfile: Dockerfile
+      platforms:
+        - linux/amd64
+        - linux/arm64
     restart: always
     # ports:
     #   - 8080:8080
@@ -27,11 +30,12 @@ services:
     build:
       context: Frontend
       dockerfile: Dockerfile
+      platforms:
+        - linux/amd64
+        - linux/arm64
     restart: always
     ports:
       -   8081:8081
-    depends_on:
-      - api
     networks:
       - competehub
 
