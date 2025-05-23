@@ -1,6 +1,6 @@
 services:
   api:
-    image: ghcr.io/team-reissdorf/backend:1.0.1
+    image: ghcr.io/team-reissdorf/backend:1.0.2
     restart: always
     # ports:
     #   - 8080:8080
@@ -22,12 +22,10 @@ services:
       - competehub
 
   frontend:
-    image: ghcr.io/team-reissdorf/frontend:1.0.2
+    image: ghcr.io/team-reissdorf/frontend:1.0.3
     restart: always
     ports:
       -   8081:8081
-    depends_on:
-      - api
     networks:
       - competehub
 
