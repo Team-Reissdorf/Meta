@@ -1,6 +1,6 @@
 services:
   api:
-    image: ghcr.io/team-reissdorf/backend:1.0.2
+    image: ghcr.io/team-reissdorf/backend:1.0.3
     restart: always
     # ports:
     #   - 8080:8080
