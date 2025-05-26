@@ -18,3 +18,13 @@ guideline tracker repo
 - [bootstrapjs - framework]([https://vuejs.org/](https://getbootstrap.com/))
 - Vanilla Javascript
 - [Axios - API calls](https://axios-http.com/docs/intro)
+
+## testing full setup
+
+0. clone repo: `git clone --recurse-submodule https://github.com/Team-Reissdorf/Meta.git`
+1. update submodules (if you already have a copy): `git submodules update --init --recursive`
+2. build and run:
+
+| podman                       | docker                                         |
+|------------------------------|------------------------------------------------|
+|  `podman-compose up --build` |  `docker compose build && docker compose up` |
